@@ -1,0 +1,119 @@
+body{
+  background-color: rgb(1, 80, 34);
+  margin:0px;
+  padding: 0px;
+}
+
+#root {
+  max-width: 100%;
+  text-align: center;
+} 
+
+.header{
+  height: 70px;
+}
+
+.title{
+  padding-top: 10px;
+}
+
+.btnDesac:hover{
+  cursor:auto;
+}
+
+.cancel{
+  padding-top: -70px;
+}
+
+.playground{
+  background-color: rgb(4, 95, 42);
+  width: 80%;
+  height: 800px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.juegoJugador{
+  text-align: left;
+}
+.juegoCompu{
+  text-align: left;
+}
+
+.pgTitle{
+  padding: 3rem;
+}
+
+.cartasJugador{
+  width: 80%;
+  height: 275px;
+  margin-top: -2rem;
+  margin-left: 3rem;
+  margin-bottom: -2rem;
+}
+
+.cartasCompu{
+  width: 80%;
+  height: 275px;
+  margin-top: -2rem;
+  margin-left: 3rem;
+  margin-bottom: -2rem;
+}
+
+.carta{
+  height: 270px;
+  width: 170px;
+  position: relative;
+  left: 140px;
+  margin-left: -140px;
+  padding: 5px;
+}
+img{
+  height: 270px;
+  width: 170px;
+  position: relative;
+  left: 140px;
+  margin-left: -140px;
+  padding: 5px;
+}
+.borderCard{
+  margin-top: -32px;
+  border: 2px dashed rgba(247,201,16,.762);
+  border-radius: 5px;
+  height: 270px;
+  left: 350px;
+  margin-left: -150px;
+  position: absolute;
+  width: 170px;
+}
+
+.mensaje{
+  position: absolute;
+  top: 20%;
+  left: 22%;
+  border-radius: 20px;
+  background-color: rgba(39, 39, 1, 0.795);
+  width: 800px;
+  height: 400px;
+}
+
+.off{
+  display: none;
+}
+.gif{
+  width: 350px;
+  height: 200px;
+  margin-left: -280px;
+  border-radius: 10px;
+}
+
+.bienvenida{
+  position: absolute;
+  top: 20%;
+  left: 22%;
+  border-radius: 20px;
+  background-color: rgba(39, 39, 1, 0.795);
+  width: 800px;
+  height: 400px;
+}
