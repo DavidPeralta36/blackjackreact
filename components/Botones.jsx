@@ -1,6 +1,6 @@
 import React from 'react'
 import "./funciones"
-const Botones = ({nuevoJuego, detenerse, agregarCarta, desactivado}) => {
+const Botones = ({nuevoJuego, detenerse, agregarCarta, desactivado /*btnCancel*/}) => {
   return (
     <div>
       <div className='container botones'>

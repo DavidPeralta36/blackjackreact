@@ -115,5 +115,32 @@ img{
   border-radius: 20px;
   background-color: rgba(39, 39, 1, 0.795);
   width: 800px;
-  height: 400px;
+  height: 450px;
+}
+
+.cuerpoBnvnida{
+  margin-top: 20px;
+  display: flex;
+  width: 95%;
+  height: 70%;
+  background-color: rgba(0, 36, 36, 0.801);
+  border-radius: 20px;
+}
+.textR{
+  width: 50%;
+  height: 100%;
+  color: white;
+  text-align: left;
+}
+.textR > p {
+  margin: 10px;
+  font-size: large;
+}
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  text-decoration: none;
+  color: black;
 }
